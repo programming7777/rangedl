@@ -15,7 +15,6 @@ setup(name='rangedl',
       },
       install_requires=['tqdm>=4.15.0',
                         'requests>=2.14.2',
-                        'yarl>=1.1.0',
-                        'aiosphttp>=0.1.0'],
+                        'yarl>=1.1.0'],
       dependency_links=['git+https://github.com/johejo/aiosphttp.git']
       )
